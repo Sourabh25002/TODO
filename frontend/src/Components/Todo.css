@@ -1,0 +1,95 @@
+.todo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #c0392b;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.add-activity {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-activity input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.add-activity button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.add-activity button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table td {
+  font-size: 14px;
+}
+
+table button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table button:hover {
+  background-color: #218838;
+}
+
+@media screen and (max-width: 600px) {
+  .add-activity {
+    flex-direction: column;
+  }
+
+  .add-activity input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  .add-activity button {
+    border-radius: 4px;
+  }
+}

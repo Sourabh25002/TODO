@@ -1,0 +1,98 @@
+/* Basic reset for margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+/* Form styling */
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Header styling */
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Form group styling for inputs and labels */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input field styling */
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styling */
+.btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Secondary button styling */
+.btn.secondary {
+  background: #6c757d;
+}
+
+/* Hover effects for buttons */
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn.secondary:hover {
+  background: #5a6268;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .login-form {
+    padding: 20px;
+  }
+  
+  .btn {
+    margin-top: 8px;
+  }
+}
