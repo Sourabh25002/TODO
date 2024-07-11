@@ -27,13 +27,13 @@ Once completed, activities display detailed information including start time, en
   
 # Installation
 
-git clone <repository-url>
-cd frontend
-npm install
-cd ../backend
-npm install
-Set up environment variables: Create a .env file in the backend directory and define PORT and MONGO_URI variables.
-Start the frontend and backend servers:
+* git clone <repository-url>
+* cd frontend
+* npm install
+* cd ../backend
+* npm install
+* Set up environment variables: Create a .env file in the backend directory and define PORT and MONGO_URI variables.
+* Start the frontend and backend servers:
 
 Frontend: npm run start in the frontend directory
 Backend: npm start in the backend directory
@@ -50,8 +50,10 @@ Backend: npm start in the backend directory
 * Enhance UI/UX with additional themes and customization options.
 * Integrate more sophisticated analytics and reporting features.
   
-Contributing
+# Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
-License
+# License
+
 This project is licensed under the ISC License. See the LICENSE file for more details.
