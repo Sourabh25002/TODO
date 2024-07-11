@@ -19,19 +19,19 @@ app.use(cookieParser()); // Parse cookies attached to the client request
 app.use(cors()); // Enable Cross-Origin Resource Sharing (CORS)
 
 // connect mongodb to our node app.
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then((x) => {
-    console.log("Connected to Mongo!");
-  })
-  .catch((err) => {
-    console.log("Error while connecting to Mongo");
-  });
+// mongoose
+//   .connect(process.env.MONGO_URI, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   })
+//   .then((x) => {
+//     console.log("Connected to Mongo!");
+//   })
+//   .catch((err) => {
+//     console.log("Error while connecting to Mongo");
+//   });
 
-// connectDB(); // Connect to the database using the imported function
+connectDB(); // Connect to the database using the imported function
 
 // Routes
 app.get("/", (req, res) => {
