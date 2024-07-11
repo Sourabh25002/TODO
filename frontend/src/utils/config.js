@@ -1,2 +1,2 @@
-export const backendUrl = "http://localhost:4000/";
+export const backendUrl = "https://todo-50q9.onrender.com/";
 // export const backendUrl = "";
